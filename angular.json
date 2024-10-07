@@ -117,8 +117,18 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "",
+            "repo":"https://github.com/MaCout0/Gerenciador-De-Filmes.git"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
